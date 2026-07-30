@@ -15,9 +15,13 @@ type Props = NativeStackScreenProps<FindStackParamList, 'LocationDetail'>;
 export function LocationDetailScreen({ route, navigation }: Props) {
   const { locationId } = route.params;
   const location = useAppStore((s) => s.locations.find((l) => l.id === locationId));
-  const reviews = useAppStore((s) => s.reviews.filter((r) => r.locationId === locationId));
   const profile = useAppStore((s) => s.profile);
   const allReviews = useAppStore((s) => s.reviews);
+
+  const reviews = useMemo(
+    () => allReviews.filter((r) => r.locationId === locationId),
+    [allReviews, locationId]
+  );
 
   const rank = useMemo(() => computeRank(allReviews, profile.passcodesShared), [allReviews, profile]);
 
