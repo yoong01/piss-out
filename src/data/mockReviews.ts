@@ -27,6 +27,7 @@ export const MOCK_REVIEWS: Review[] = [
     ratings: { ...base(4), toiletPaper: 5, ambience: 5, privacy: 3 },
     comment: 'Solid pub loo. Jukebox is audible from the stall, which somehow helps. Queue moves fast on a Tuesday.',
     hasPasscode: false,
+    photos: 3,
   },
   {
     id: 'seed-2',
@@ -47,6 +48,7 @@ export const MOCK_REVIEWS: Review[] = [
     ratings: { ...base(5), fee: 5, privacy: 5, accessibility: 5 },
     comment: 'Museum toilets are chronically underrated. Marble counters, zero queue, nobody checks tickets.',
     hasPasscode: false,
+    photos: 2,
   },
   {
     id: 'seed-4',
@@ -98,6 +100,7 @@ export const MOCK_REVIEWS: Review[] = [
     ratings: { ...base(4), logistics: 5, signal: 5 },
     comment: 'Fourth floor, past the perfume counter. Always empty. Full signal bars, dangerous levels of comfort.',
     hasPasscode: false,
+    photos: 1,
   },
   {
     id: 'seed-9',

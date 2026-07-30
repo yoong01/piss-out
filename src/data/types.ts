@@ -32,6 +32,8 @@ export interface Review {
   comment: string;
   hasPasscode: boolean;
   passcode?: string;
+  /** Count of attached photos, if any — no upload feature exists yet, so this is only set on seed data. */
+  photos?: number;
 }
 
 export interface Location {

@@ -11,3 +11,8 @@ export const fontAssets = {
   'Chivo-Bold': require('../../assets/fonts/Chivo-Bold.ttf'),
   'Chivo-Black': require('../../assets/fonts/Chivo-Black.ttf'),
 };
+
+/** Design spec uses -0.04em tracking throughout; convert to px per font size. */
+export function tracking(fontSize: number): number {
+  return fontSize * -0.04;
+}

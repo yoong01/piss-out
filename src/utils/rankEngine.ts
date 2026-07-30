@@ -107,6 +107,15 @@ function computeBadges(reviews: Review[], passcodesShared: number): Badge[] {
   return badges;
 }
 
+/**
+ * Display nickname shown next to a username — a badge earned from their
+ * behavior when they have one (e.g. "Weezard"), otherwise their rank title.
+ */
+export function getPrimaryNickname(reviews: Review[], passcodesShared: number): string {
+  const rank = computeRank(reviews, passcodesShared);
+  return rank.badges[0]?.name ?? rank.title;
+}
+
 export function computeRank(reviews: Review[], passcodesShared: number): RankResult {
   const reviewCount = reviews.length;
   const tierIdx = currentTierIndex(reviewCount);
