@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Badge } from '../data/types';
 import { colors, radii, spacing } from '../theme/colors';
+import { fonts } from '../theme/typography';
 
 interface RankBadgeProps {
   title: string;
@@ -21,7 +22,9 @@ export function RankInsignia({ title, tier }: RankBadgeProps) {
 export function BadgeChip({ badge }: { badge: Badge }) {
   return (
     <View style={styles.chip}>
-      <Text style={styles.chipEmoji}>{badge.emoji}</Text>
+      <View style={styles.chipEmojiWrap}>
+        <Text style={styles.chipEmoji}>{badge.emoji}</Text>
+      </View>
       <View style={styles.chipTextWrap}>
         <Text style={styles.chipName}>{badge.name}</Text>
         <Text style={styles.chipDesc}>{badge.description}</Text>
@@ -35,15 +38,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   stripes: {
-    color: colors.gold,
+    color: colors.black,
     fontSize: 14,
     letterSpacing: 2,
-    marginBottom: 2,
+    marginBottom: 4,
   },
   title: {
-    fontSize: 20,
-    fontWeight: '800',
-    color: colors.text,
+    fontFamily: fonts.display,
+    fontSize: 22,
+    color: colors.black,
   },
   chip: {
     flexDirection: 'row',
@@ -55,19 +58,28 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm,
     alignItems: 'center',
   },
-  chipEmoji: {
-    fontSize: 22,
+  chipEmojiWrap: {
+    width: 40,
+    height: 40,
+    borderRadius: radii.md,
+    backgroundColor: colors.point,
+    alignItems: 'center',
+    justifyContent: 'center',
     marginRight: spacing.sm,
+  },
+  chipEmoji: {
+    fontSize: 20,
   },
   chipTextWrap: {
     flex: 1,
   },
   chipName: {
-    fontWeight: '700',
+    fontFamily: fonts.bodyBold,
     color: colors.text,
     fontSize: 14,
   },
   chipDesc: {
+    fontFamily: fonts.body,
     fontSize: 12,
     color: colors.textMuted,
     marginTop: 1,

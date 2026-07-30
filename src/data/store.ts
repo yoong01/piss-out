@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { MOCK_LOCATIONS } from './mockLocations';
+import { MOCK_REVIEWS } from './mockReviews';
 import { Location, RatingCategories, Review, UserProfile } from './types';
 import { generateId } from '../utils/id';
 
@@ -20,6 +21,7 @@ interface AppState {
   }) => void;
   reviewsForLocation: (locationId: string) => Review[];
   averageRatingsForLocation: (locationId: string) => { overall: number; count: number };
+  myReviews: () => Review[];
 }
 
 const DEFAULT_PROFILE: UserProfile = {
@@ -34,7 +36,7 @@ export const useAppStore = create<AppState>()(
     (set, get) => ({
       hasHydrated: false,
       locations: MOCK_LOCATIONS,
-      reviews: [],
+      reviews: MOCK_REVIEWS,
       profile: DEFAULT_PROFILE,
       setHasHydrated: (value) => set({ hasHydrated: value }),
       addReview: ({ locationId, ratings, comment, hasPasscode, passcode }) => {
@@ -72,6 +74,7 @@ export const useAppStore = create<AppState>()(
           overallPerReview.reduce((a, b) => a + b, 0) / overallPerReview.length;
         return { overall, count: reviews.length };
       },
+      myReviews: () => get().reviews.filter((r) => r.authorId === get().profile.id),
     }),
     {
       name: 'pissout-storage',

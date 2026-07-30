@@ -8,17 +8,28 @@ situations, without the awkwardness of "customers only" gatekeeping.
 
 ## What's in this MVP scaffold
 
-- **Home / Find tab** — searchable, filterable list of nearby locations, sorted
-  by distance once location permission is granted (`expo-location`).
+Three tabs:
+
+- **Map** (landing tab) — an abstract placeholder map plotting mock locations
+  as tappable pins (positioned from real lat/lng, no tile provider yet).
+  Tapping a pin previews the spot and links to its detail page. Meant to be
+  swapped for a real map SDK/API later.
+- **Feed** — a curated feed of review posts across all locations, with
+  Recent / Trending / Nearby sorting (Nearby uses `expo-location`).
+- **Profile** — rank insignia, stats, earned commendations, and the current
+  user's own rating history ("My Ratings").
+
+Plus, reached from Map or Feed:
+
 - **Location detail** — per-category rating breakdown, review feed, and a
   gated door-code section.
 - **File a Report (add review)** — rates each venue across 10 categories:
   smell, logistics, accessibility, phone signal, fee, passcode experience,
   toilet paper quality, ambience, privacy, and aftercare (handwash/cleanliness).
 - **Passcode gating** — door codes are only visible/submittable once a user
-  has filed 5+ reports (`Private Pooper` rank), with an in-app warning that
-  codes are community-submitted and may go stale.
-- **Rank tab** — a military-styled progression (Recruit → Private Pooper →
+  has filed 5+ *of their own* reports (`Private Pooper` rank), with an
+  in-app warning that codes are community-submitted and may go stale.
+- **Rank system** — a military-styled progression (Recruit → Private Pooper →
   Corporal Commode → ... → General Number Two) plus comedic behavior-based
   commendations: Passcode Master, Exhibitionist, Bomber, Weezard, Plumber,
   Freeloader. See `src/utils/rankEngine.ts` for the rules.
@@ -28,11 +39,25 @@ situations, without the awkwardness of "customers only" gatekeeping.
   `assets/sounds/plop.wav` and `assets/sounds/flush.wav` with real recorded/
   licensed audio before shipping.
 
+## Design system
+
+- **Type**: Nico Moji (`assets/fonts/NicoMoji-Regular.ttf`) for headings only
+  — used sparingly, per screen title / section heading. Chivo (Regular/Bold/
+  Black, pulled from Google Fonts) for everything else. See
+  `src/theme/typography.ts`.
+- **Color**: monochrome black/white with a single bright-yellow point color
+  (`#FFFF00`) for primary actions and selected states, on an off-white
+  `#F6F6F4` background. See `src/theme/colors.ts`.
+- **Radius**: 12px default (`radii.md`); buttons are fully rounded (pill).
+
 ## Architecture notes
 
 - **State**: Zustand store (`src/data/store.ts`) persisted to
-  `AsyncStorage`. No backend yet — `src/data/mockLocations.ts` seeds a
-  handful of London locations, and all reviews are stored locally on-device.
+  `AsyncStorage`. No backend yet — `src/data/mockLocations.ts` and
+  `src/data/mockReviews.ts` seed a handful of London locations and community
+  reviews so the Feed/Map aren't empty on first run; the current user's own
+  reviews are tracked separately (`profile.id`) so rank/passcode gating is
+  based only on what *they've* submitted, not the seeded community activity.
   Swapping in a real API/DB later means replacing the store's actions with
   network calls; the component layer already treats data as async-ready via
   hooks.
@@ -56,9 +81,10 @@ npm start        # then press i / a / w, or scan the QR code in Expo Go
   and `npx expo export --platform web` bundles all 577 modules successfully
   (verifying imports/JSX compile), but nobody has tapped through the actual
   UI yet. Please run it locally and sanity-check flows before relying on it.
-- **No real map view** — the Home screen is a sorted/filterable list, not a
-  Google-Maps-style pin map. Adding `react-native-maps` (or Expo's map APIs)
-  with a real tile/API key is a natural next step.
+- **No real map view** — the Map tab plots pins on an abstract grid computed
+  from lat/lng, not real map tiles. Adding `react-native-maps` (or Expo's map
+  APIs) with a real tile/API key is a natural next step (planned by the
+  project owner).
 - **No backend/auth** — everything is local-only mock data via AsyncStorage;
   there's no shared community database, so reviews don't sync across
   devices/users yet.

@@ -18,8 +18,9 @@ export function StarRow({ value, onChange, size = 20 }: StarRowProps) {
     <View style={styles.row}>
       {stars.map((star) => {
         const filled = star <= Math.round(value);
+        const filledColor = interactive ? colors.point : colors.black;
         const content = (
-          <Text style={{ fontSize: size, color: filled ? colors.accent : colors.border }}>
+          <Text style={{ fontSize: size, color: filled ? filledColor : colors.border }}>
             {filled ? '★' : '☆'}
           </Text>
         );

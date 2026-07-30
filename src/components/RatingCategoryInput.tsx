@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { RATING_CATEGORY_META, RatingCategoryKey } from '../data/types';
 import { colors, spacing } from '../theme/colors';
+import { fonts } from '../theme/typography';
 import { StarRow } from './StarRow';
 
 interface RatingCategoryInputProps {
@@ -40,11 +41,12 @@ const styles = StyleSheet.create({
     marginRight: spacing.md,
   },
   label: {
+    fontFamily: fonts.bodyBold,
     fontSize: 14,
-    fontWeight: '600',
     color: colors.text,
   },
   description: {
+    fontFamily: fonts.body,
     fontSize: 11,
     color: colors.textMuted,
     marginTop: 2,

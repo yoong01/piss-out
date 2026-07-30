@@ -1,10 +1,12 @@
-export type FindStackParamList = {
-  Home: undefined;
+export type SharedStackParamList = {
+  Map: undefined;
+  Feed: undefined;
   LocationDetail: { locationId: string };
   AddReview: { locationId: string };
 };
 
 export type RootTabParamList = {
-  FindTab: undefined;
+  MapTab: undefined;
+  FeedTab: undefined;
   ProfileTab: undefined;
 };

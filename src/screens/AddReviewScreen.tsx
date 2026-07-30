@@ -1,6 +1,6 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import * as Haptics from 'expo-haptics';
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import {
   Alert,
   KeyboardAvoidingView,
@@ -20,11 +20,12 @@ import { useAppStore } from '../data/store';
 import { RATING_CATEGORY_ORDER, RatingCategories, RatingCategoryKey } from '../data/types';
 import { colors, radii, spacing } from '../theme/colors';
 import { randomFrom, REVIEW_SUBMIT_SUCCESS_LINES } from '../theme/copy';
+import { fonts } from '../theme/typography';
 import { computeRank } from '../utils/rankEngine';
 import { useSoundEffects } from '../utils/sound';
-import { FindStackParamList } from '../navigation/types';
+import { SharedStackParamList } from '../navigation/types';
 
-type Props = NativeStackScreenProps<FindStackParamList, 'AddReview'>;
+type Props = NativeStackScreenProps<SharedStackParamList, 'AddReview'>;
 
 function defaultRatings(): RatingCategories {
   return RATING_CATEGORY_ORDER.reduce((acc, key) => {
@@ -37,7 +38,7 @@ export function AddReviewScreen({ route, navigation }: Props) {
   const { locationId } = route.params;
   const location = useAppStore((s) => s.locations.find((l) => l.id === locationId));
   const addReview = useAppStore((s) => s.addReview);
-  const reviews = useAppStore((s) => s.reviews);
+  const allReviews = useAppStore((s) => s.reviews);
   const profile = useAppStore((s) => s.profile);
   const { playFlush } = useSoundEffects();
 
@@ -46,7 +47,11 @@ export function AddReviewScreen({ route, navigation }: Props) {
   const [hasPasscode, setHasPasscode] = useState(false);
   const [passcode, setPasscode] = useState('');
 
-  const rank = computeRank(reviews, profile.passcodesShared);
+  const myReviews = useMemo(
+    () => allReviews.filter((r) => r.authorId === profile.id),
+    [allReviews, profile.id]
+  );
+  const rank = computeRank(myReviews, profile.passcodesShared);
 
   const updateRating = (key: RatingCategoryKey, value: number) => {
     setRatings((prev) => ({ ...prev, [key]: value }));
@@ -102,6 +107,8 @@ export function AddReviewScreen({ route, navigation }: Props) {
               value={hasPasscode}
               onValueChange={setHasPasscode}
               disabled={!rank.passcodeAccessUnlocked}
+              trackColor={{ true: colors.point, false: colors.border }}
+              thumbColor={colors.surface}
             />
           </View>
 
@@ -133,9 +140,9 @@ export function AddReviewScreen({ route, navigation }: Props) {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.background },
   scroll: { padding: spacing.md, paddingBottom: spacing.xl * 2 },
-  title: { fontSize: 22, fontWeight: '800', color: colors.text },
-  subtitle: { fontSize: 14, color: colors.textMuted, marginBottom: spacing.md },
-  sectionTitle: { fontSize: 15, fontWeight: '800', color: colors.text, marginTop: spacing.md },
+  title: { fontFamily: fonts.display, fontSize: 22, color: colors.text },
+  subtitle: { fontFamily: fonts.body, fontSize: 14, color: colors.textMuted, marginBottom: spacing.md },
+  sectionTitle: { fontFamily: fonts.bodyBold, fontSize: 15, color: colors.text, marginTop: spacing.md },
   commentInput: {
     backgroundColor: colors.surface,
     borderWidth: 1,
@@ -144,6 +151,7 @@ const styles = StyleSheet.create({
     padding: spacing.sm,
     minHeight: 80,
     textAlignVertical: 'top',
+    fontFamily: fonts.body,
     fontSize: 13,
     color: colors.text,
     marginTop: spacing.xs,
@@ -160,16 +168,17 @@ const styles = StyleSheet.create({
     borderColor: colors.border,
     borderRadius: radii.md,
     padding: spacing.sm,
+    fontFamily: fonts.body,
     fontSize: 14,
     color: colors.text,
     marginBottom: spacing.xs,
   },
   submitButton: {
-    backgroundColor: colors.success,
-    borderRadius: radii.md,
+    backgroundColor: colors.point,
+    borderRadius: radii.pill,
     paddingVertical: spacing.md,
     alignItems: 'center',
     marginTop: spacing.lg,
   },
-  submitText: { color: colors.surface, fontWeight: '800', fontSize: 16 },
+  submitText: { fontFamily: fonts.bodyBold, color: colors.black, fontSize: 16 },
 });

@@ -1,4 +1,5 @@
 import { NavigationContainer } from '@react-navigation/native';
+import { useFonts } from 'expo-font';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { ActivityIndicator, StyleSheet, View } from 'react-native';
@@ -6,14 +7,16 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { useAppStore } from './src/data/store';
 import { RootNavigator } from './src/navigation/RootNavigator';
 import { colors } from './src/theme/colors';
+import { fontAssets } from './src/theme/typography';
 
 export default function App() {
   const hasHydrated = useAppStore((s) => s.hasHydrated);
+  const [fontsLoaded] = useFonts(fontAssets);
 
-  if (!hasHydrated) {
+  if (!hasHydrated || !fontsLoaded) {
     return (
       <View style={styles.loading}>
-        <ActivityIndicator color={colors.primary} size="large" />
+        <ActivityIndicator color={colors.black} size="large" />
       </View>
     );
   }

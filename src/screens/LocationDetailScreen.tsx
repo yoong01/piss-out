@@ -8,9 +8,10 @@ import { useAppStore } from '../data/store';
 import { RATING_CATEGORY_META, RATING_CATEGORY_ORDER, VENUE_CATEGORY_META } from '../data/types';
 import { computeRank } from '../utils/rankEngine';
 import { colors, radii, spacing } from '../theme/colors';
-import { FindStackParamList } from '../navigation/types';
+import { fonts } from '../theme/typography';
+import { SharedStackParamList } from '../navigation/types';
 
-type Props = NativeStackScreenProps<FindStackParamList, 'LocationDetail'>;
+type Props = NativeStackScreenProps<SharedStackParamList, 'LocationDetail'>;
 
 export function LocationDetailScreen({ route, navigation }: Props) {
   const { locationId } = route.params;
@@ -23,7 +24,15 @@ export function LocationDetailScreen({ route, navigation }: Props) {
     [allReviews, locationId]
   );
 
-  const rank = useMemo(() => computeRank(allReviews, profile.passcodesShared), [allReviews, profile]);
+  const myReviews = useMemo(
+    () => allReviews.filter((r) => r.authorId === profile.id),
+    [allReviews, profile.id]
+  );
+
+  const rank = useMemo(
+    () => computeRank(myReviews, profile.passcodesShared),
+    [myReviews, profile.passcodesShared]
+  );
 
   const categoryAverages = useMemo(() => {
     const result: Record<string, number> = {};
@@ -117,30 +126,32 @@ export function LocationDetailScreen({ route, navigation }: Props) {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.background },
   scroll: { padding: spacing.md, paddingBottom: spacing.xl },
-  missing: { padding: spacing.lg, textAlign: 'center', color: colors.textMuted },
-  name: { fontSize: 24, fontWeight: '800', color: colors.text },
-  address: { fontSize: 14, color: colors.textMuted, marginTop: spacing.xs },
+  missing: { padding: spacing.lg, textAlign: 'center', color: colors.textMuted, fontFamily: fonts.body },
+  name: { fontFamily: fonts.display, fontSize: 24, color: colors.text },
+  address: { fontFamily: fonts.body, fontSize: 14, color: colors.textMuted, marginTop: spacing.xs },
   tagRow: { flexDirection: 'row', marginTop: spacing.sm },
   tag: {
+    fontFamily: fonts.bodyBold,
     fontSize: 12,
-    fontWeight: '700',
-    color: colors.primaryDark,
-    backgroundColor: '#E4F1F7',
+    color: colors.black,
+    backgroundColor: colors.background,
+    borderWidth: 1,
+    borderColor: colors.black,
     paddingHorizontal: spacing.sm,
     paddingVertical: 4,
     borderRadius: radii.pill,
   },
   addReviewButton: {
-    backgroundColor: colors.primary,
-    borderRadius: radii.md,
+    backgroundColor: colors.point,
+    borderRadius: radii.pill,
     paddingVertical: spacing.sm,
     alignItems: 'center',
     marginTop: spacing.md,
   },
-  addReviewText: { color: colors.surface, fontWeight: '800', fontSize: 15 },
+  addReviewText: { fontFamily: fonts.bodyBold, color: colors.black, fontSize: 15 },
   sectionTitle: {
-    fontSize: 16,
-    fontWeight: '800',
+    fontFamily: fonts.display,
+    fontSize: 18,
     color: colors.text,
     marginTop: spacing.lg,
     marginBottom: spacing.sm,
@@ -158,8 +169,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 4,
   },
-  breakdownLabel: { fontSize: 13, color: colors.text },
-  noCodes: { fontSize: 13, color: colors.textMuted, fontStyle: 'italic' },
+  breakdownLabel: { fontFamily: fonts.body, fontSize: 13, color: colors.text },
+  noCodes: { fontFamily: fonts.body, fontSize: 13, color: colors.textMuted },
   codeRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -170,8 +181,8 @@ const styles = StyleSheet.create({
     padding: spacing.sm,
     marginBottom: spacing.xs,
   },
-  codeValue: { fontWeight: '800', fontSize: 16, letterSpacing: 2, color: colors.primaryDark },
-  codeMeta: { fontSize: 11, color: colors.textMuted },
+  codeValue: { fontFamily: fonts.bodyBlack, fontSize: 16, letterSpacing: 2, color: colors.black },
+  codeMeta: { fontFamily: fonts.body, fontSize: 11, color: colors.textMuted },
   reviewCard: {
     backgroundColor: colors.surface,
     borderRadius: radii.md,
@@ -181,7 +192,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm,
   },
   reviewHeader: { flexDirection: 'row', justifyContent: 'space-between' },
-  reviewAuthor: { fontWeight: '700', fontSize: 13, color: colors.text },
-  reviewDate: { fontSize: 11, color: colors.textMuted },
-  reviewComment: { fontSize: 13, color: colors.text, marginTop: spacing.xs, lineHeight: 18 },
+  reviewAuthor: { fontFamily: fonts.bodyBold, fontSize: 13, color: colors.text },
+  reviewDate: { fontFamily: fonts.body, fontSize: 11, color: colors.textMuted },
+  reviewComment: { fontFamily: fonts.body, fontSize: 13, color: colors.text, marginTop: spacing.xs, lineHeight: 18 },
 });
