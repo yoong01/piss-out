@@ -1,3 +1,6 @@
+import 'leaflet/dist/leaflet.css';
+import './src/theme/leafletOverrides.css';
+
 import { NavigationContainer } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { StatusBar } from 'expo-status-bar';

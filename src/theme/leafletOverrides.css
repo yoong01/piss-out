@@ -1,0 +1,11 @@
+.pissout-toilet-tooltip {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  font-size: 10px !important;
+  pointer-events: none !important;
+}
+.pissout-toilet-tooltip::before {
+  display: none !important;
+}

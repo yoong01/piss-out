@@ -27,11 +27,17 @@ export interface Review {
   locationId: string;
   authorId: string;
   authorName: string;
+  authorAvatar: string;
   createdAt: string;
   ratings: RatingCategories;
   comment: string;
   hasPasscode: boolean;
   passcode?: string;
+}
+
+export interface OpeningHours {
+  open: string;
+  close: string;
 }
 
 export interface Location {
@@ -43,7 +49,23 @@ export interface Location {
   longitude: number;
   requiresPurchase: boolean;
   freeToEnter: boolean;
+  openingHours: OpeningHours;
+  discovered: boolean;
+  feeKnown?: 'free' | 'paid';
+  accessible?: boolean;
+  babyChange?: boolean;
 }
+
+export const DEFAULT_OPENING_HOURS_BY_CATEGORY: Record<VenueCategory, OpeningHours> = {
+  restaurant: { open: '12:00', close: '22:30' },
+  museum: { open: '10:00', close: '18:00' },
+  tubeStation: { open: '05:00', close: '00:30' },
+  pub: { open: '11:00', close: '23:00' },
+  cafe: { open: '07:00', close: '19:00' },
+  publicToilet: { open: '08:00', close: '20:00' },
+  shop: { open: '09:00', close: '20:00' },
+  other: { open: '09:00', close: '18:00' },
+};
 
 export interface UserProfile {
   id: string;

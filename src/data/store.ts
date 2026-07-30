@@ -3,8 +3,17 @@ import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { MOCK_LOCATIONS } from './mockLocations';
 import { MOCK_REVIEWS } from './mockReviews';
-import { Location, RatingCategories, Review, UserProfile } from './types';
+import { DEFAULT_OPENING_HOURS_BY_CATEGORY, Location, RatingCategories, Review, UserProfile } from './types';
+import { UNDISCOVERED_TOILETS } from './undiscoveredToilets';
 import { generateId } from '../utils/id';
+
+const DISCOVERED_VENUES: Location[] = MOCK_LOCATIONS.map((venue) => ({
+  ...venue,
+  discovered: true,
+  openingHours: DEFAULT_OPENING_HOURS_BY_CATEGORY[venue.category],
+}));
+
+const ALL_LOCATIONS: Location[] = [...DISCOVERED_VENUES, ...UNDISCOVERED_TOILETS];
 
 interface AppState {
   hasHydrated: boolean;
@@ -35,7 +44,7 @@ export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
       hasHydrated: false,
-      locations: MOCK_LOCATIONS,
+      locations: ALL_LOCATIONS,
       reviews: MOCK_REVIEWS,
       profile: DEFAULT_PROFILE,
       setHasHydrated: (value) => set({ hasHydrated: value }),
@@ -45,6 +54,7 @@ export const useAppStore = create<AppState>()(
           locationId,
           authorId: get().profile.id,
           authorName: get().profile.displayName,
+          authorAvatar: '🙋',
           createdAt: new Date().toISOString(),
           ratings,
           comment,
@@ -77,8 +87,14 @@ export const useAppStore = create<AppState>()(
       myReviews: () => get().reviews.filter((r) => r.authorId === get().profile.id),
     }),
     {
-      name: 'pissout-storage',
+      name: 'pissout-storage-v2',
       storage: createJSONStorage(() => AsyncStorage),
+      partialize: (state) => ({ reviews: state.reviews, profile: state.profile }),
+      merge: (persistedState, currentState) => ({
+        ...currentState,
+        ...(persistedState as object),
+        locations: currentState.locations,
+      }),
       onRehydrateStorage: () => (state) => {
         state?.setHasHydrated(true);
       },

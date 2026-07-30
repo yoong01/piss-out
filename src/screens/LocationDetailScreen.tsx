@@ -13,6 +13,10 @@ import { SharedStackParamList } from '../navigation/types';
 
 type Props = NativeStackScreenProps<SharedStackParamList, 'LocationDetail'>;
 
+const BREAKDOWN_DISPLAY_ORDER = RATING_CATEGORY_ORDER.filter(
+  (key) => key !== 'privacy' && key !== 'logistics' && key !== 'fee' && key !== 'passcodeExperience'
+);
+
 export function LocationDetailScreen({ route, navigation }: Props) {
   const { locationId } = route.params;
   const location = useAppStore((s) => s.locations.find((l) => l.id === locationId));
@@ -75,7 +79,7 @@ export function LocationDetailScreen({ route, navigation }: Props) {
 
         <Text style={styles.sectionTitle}>Category Breakdown</Text>
         <View style={styles.breakdown}>
-          {RATING_CATEGORY_ORDER.map((key) => {
+          {BREAKDOWN_DISPLAY_ORDER.map((key) => {
             const catMeta = RATING_CATEGORY_META[key];
             return (
               <View key={key} style={styles.breakdownRow}>

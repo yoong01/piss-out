@@ -1,6 +1,8 @@
 import { Location } from './types';
 
-export const MOCK_LOCATIONS: Location[] = [
+export type DiscoveredVenueSeed = Omit<Location, 'openingHours' | 'discovered'>;
+
+export const MOCK_LOCATIONS: DiscoveredVenueSeed[] = [
   {
     id: 'loc-1',
     name: 'The Crown & Anchor',
