@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "osm-25534499",
+    "lat": 51.4946389,
+    "lng": -0.1322444,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "designated",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-26819248",
+    "lat": 51.5159737,
+    "lng": -0.1885334,
+    "name": "Queensway",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-54070004",
+    "lat": 51.559457,
+    "lng": -0.1518909,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-235424107",
+    "lat": 51.5049358,
+    "lng": -0.1596237,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-247049800",
+    "lat": 51.4814709,
+    "lng": -0.0922411,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-255684945",
+    "lat": 51.5141839,
+    "lng": -0.201334,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-280885803",
+    "lat": 51.4682771,
+    "lng": -0.066871,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-281851493",
+    "lat": 51.5256686,
+    "lng": -0.153889,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-339925126",
+    "lat": 51.5082444,
+    "lng": -0.1285272,
+    "name": "Trafalgar Square Toilets",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-344521109",
+    "lat": 51.503634,
+    "lng": -0.1133529,
+    "name": "Waterloo Station",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-348814978",
+    "lat": 51.510791,
+    "lng": -0.1299631,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-350409063",
+    "lat": 51.5109208,
+    "lng": -0.085803,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "no",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-380494795",
+    "lat": 51.515633,
+    "lng": -0.132367,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-389688170",
+    "lat": 51.5325517,
+    "lng": -0.1580494,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-499350869",
+    "lat": 51.5136431,
+    "lng": -0.135737,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-511645366",
+    "lat": 51.5243719,
+    "lng": -0.2014118,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-553308759",
+    "lat": 51.5176778,
+    "lng": -0.0816015,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-564744078",
+    "lat": 51.4800331,
+    "lng": -0.1781289,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-566313868",
+    "lat": 51.5117346,
+    "lng": -0.1216725,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-588175347",
+    "lat": 51.5075636,
+    "lng": -0.121849,
+    "name": "Embankment Toilets",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-596763309",
+    "lat": 51.5089214,
+    "lng": -0.1259481,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-639141976",
+    "lat": 51.518342,
+    "lng": -0.2068223,
+    "name": "Pay toilet accessable",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-654083991",
+    "lat": 51.5474149,
+    "lng": -0.0725826,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-662427640",
+    "lat": 51.472008,
+    "lng": -0.217745,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-694510919",
+    "lat": 51.5088161,
+    "lng": -0.0788891,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-704892236",
+    "lat": 51.5126537,
+    "lng": -0.1147889,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-705074466",
+    "lat": 51.4629238,
+    "lng": -0.1127436,
+    "name": "Pope's Road Toilets",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-736819740",
+    "lat": 51.4819167,
+    "lng": -0.156019,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-747813217",
+    "lat": 51.514314,
+    "lng": -0.0993426,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-751735279",
+    "lat": 51.5103781,
+    "lng": -0.1177473,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-918721618",
+    "lat": 51.504837,
+    "lng": -0.086416,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-919741103",
+    "lat": 51.5015418,
+    "lng": -0.2032989,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-1088333795",
+    "lat": 51.5045004,
+    "lng": -0.078585,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1090774423",
+    "lat": 51.4860258,
+    "lng": -0.1237464,
+    "name": "Vauxhall bus station",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-1102236526",
+    "lat": 51.5048975,
+    "lng": -0.0825117,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1115390365",
+    "lat": 51.5072871,
+    "lng": -0.1434289,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1306552273",
+    "lat": 51.5046549,
+    "lng": -0.1699682,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1320893735",
+    "lat": 51.5108756,
+    "lng": -0.1006053,
+    "name": "Paul's Walk",
+    "fee": "yes",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1390249803",
+    "lat": 51.4616678,
+    "lng": -0.2159205,
+    "name": "Putney Library",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1412226827",
+    "lat": 51.4744846,
+    "lng": -0.1026166,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1421212310",
+    "lat": 51.4812706,
+    "lng": -0.1893213,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1422401250",
+    "lat": 51.5491416,
+    "lng": -0.152822,
+    "name": "Queen's Crescent",
+    "fee": "yes",
+    "accessible": "limited",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1428315650",
+    "lat": 51.492889,
+    "lng": -0.1498411,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1428315721",
+    "lat": 51.4932769,
+    "lng": -0.1492424,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-1428315779",
+    "lat": 51.4953797,
+    "lng": -0.1450742,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-1436775907",
+    "lat": 51.5159366,
+    "lng": -0.2048126,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-1493328982",
+    "lat": 51.5141092,
+    "lng": -0.1395125,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1671272868",
+    "lat": 51.5518122,
+    "lng": -0.1922934,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1723656498",
+    "lat": 51.5092971,
+    "lng": -0.090704,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "unknown",
+    "access": "permissive",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1756373274",
+    "lat": 51.4849526,
+    "lng": -0.1626852,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1933715155",
+    "lat": 51.4650291,
+    "lng": -0.1608241,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1933715200",
+    "lat": 51.4638215,
+    "lng": -0.1639582,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1968744125",
+    "lat": 51.5013275,
+    "lng": -0.1238053,
+    "name": "CityLoos",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-1984550247",
+    "lat": 51.5015114,
+    "lng": -0.2032857,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-2141849209",
+    "lat": 51.5388681,
+    "lng": -0.1424803,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-2141849210",
+    "lat": 51.5388945,
+    "lng": -0.1428576,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-2184647917",
+    "lat": 51.508856,
+    "lng": -0.19837,
+    "name": "Notting Hill Gate",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-2414177242",
+    "lat": 51.555451,
+    "lng": -0.1513428,
+    "name": "Disabled WC",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "permissive",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-2427879271",
+    "lat": 51.5146203,
+    "lng": -0.1421375,
+    "name": "Princes Street",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-2456520031",
+    "lat": 51.5028988,
+    "lng": -0.1192156,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-2497930235",
+    "lat": 51.4947617,
+    "lng": -0.1431464,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-2779109323",
+    "lat": 51.5170742,
+    "lng": -0.176345,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-2897395303",
+    "lat": 51.4888975,
+    "lng": -0.091188,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-2949127696",
+    "lat": 51.4619526,
+    "lng": -0.1130333,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-2950089188",
+    "lat": 51.4727711,
+    "lng": -0.0684732,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3269358623",
+    "lat": 51.5139142,
+    "lng": -0.0949309,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3269424658",
+    "lat": 51.5134726,
+    "lng": -0.0952537,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3341983993",
+    "lat": 51.5247411,
+    "lng": -0.1235919,
+    "name": "Hunter Street Health Centre",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-3357569166",
+    "lat": 51.5284942,
+    "lng": -0.1324968,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-3412641820",
+    "lat": 51.518135,
+    "lng": -0.2066507,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-3415870334",
+    "lat": 51.4804842,
+    "lng": -0.1945969,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3415875855",
+    "lat": 51.4885872,
+    "lng": -0.1648044,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3415877973",
+    "lat": 51.4923841,
+    "lng": -0.156798,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3415879309",
+    "lat": 51.4923441,
+    "lng": -0.1586273,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "limited",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3453930440",
+    "lat": 51.5087387,
+    "lng": -0.0756504,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-3578820613",
+    "lat": 51.4836374,
+    "lng": -0.0841329,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "limited",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3710942798",
+    "lat": 51.5421618,
+    "lng": -0.147715,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3777957713",
+    "lat": 51.5302161,
+    "lng": -0.1913896,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3794539887",
+    "lat": 51.5176134,
+    "lng": -0.0816208,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3906081659",
+    "lat": 51.5134805,
+    "lng": -0.088616,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-3922715852",
+    "lat": 51.5034852,
+    "lng": -0.175276,
+    "name": "Mount Gate Toilets",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-3974548723",
+    "lat": 51.5513638,
+    "lng": -0.0992444,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4107669709",
+    "lat": 51.5211445,
+    "lng": -0.2092594,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4274551602",
+    "lat": 51.5036583,
+    "lng": -0.113509,
+    "name": "Waterloo Station",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4329962757",
+    "lat": 51.5082306,
+    "lng": -0.1248364,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-4360230742",
+    "lat": 51.4676179,
+    "lng": -0.186839,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4438342675",
+    "lat": 51.4656133,
+    "lng": -0.0595535,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4440565084",
+    "lat": 51.5413835,
+    "lng": -0.1462842,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "permissive",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4440565085",
+    "lat": 51.5413747,
+    "lng": -0.1463063,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4440565086",
+    "lat": 51.5413676,
+    "lng": -0.1463293,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-4491414089",
+    "lat": 51.5225235,
+    "lng": -0.1628621,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-4579990529",
+    "lat": 51.5358031,
+    "lng": -0.1235315,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-4579990530",
+    "lat": 51.5240516,
+    "lng": -0.1231764,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "designated",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4628761925",
+    "lat": 51.5225894,
+    "lng": -0.1637331,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-4706665125",
+    "lat": 51.503409,
+    "lng": -0.0953195,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4811523921",
+    "lat": 51.5068781,
+    "lng": -0.0676531,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4815428300",
+    "lat": 51.5068543,
+    "lng": -0.0727647,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4863526002",
+    "lat": 51.496148,
+    "lng": -0.1088737,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4863526003",
+    "lat": 51.4961405,
+    "lng": -0.1083052,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-4954395594",
+    "lat": 51.5043778,
+    "lng": -0.0901812,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "limited",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5109300712",
+    "lat": 51.4947197,
+    "lng": -0.1828038,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5149207432",
+    "lat": 51.532504,
+    "lng": -0.1273606,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "limited",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-5184195871",
+    "lat": 51.4994992,
+    "lng": -0.1191955,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5262929022",
+    "lat": 51.5312535,
+    "lng": -0.1246021,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5300643105",
+    "lat": 51.5077721,
+    "lng": -0.109912,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5438701444",
+    "lat": 51.5464437,
+    "lng": -0.0740211,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "permissive",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-5502892901",
+    "lat": 51.5464559,
+    "lng": -0.0740801,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "permissive",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5503897889",
+    "lat": 51.5359312,
+    "lng": -0.2110092,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5573989327",
+    "lat": 51.5041962,
+    "lng": -0.1084446,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5760381483",
+    "lat": 51.5046134,
+    "lng": -0.0857359,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-5834430785",
+    "lat": 51.5097401,
+    "lng": -0.1401405,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-5885044836",
+    "lat": 51.4834793,
+    "lng": -0.1473767,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6018047359",
+    "lat": 51.5072612,
+    "lng": -0.0758734,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6256910047",
+    "lat": 51.5114473,
+    "lng": -0.1234384,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6256910048",
+    "lat": 51.5114882,
+    "lng": -0.1234813,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6259748096",
+    "lat": 51.5109363,
+    "lng": -0.118206,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6380360270",
+    "lat": 51.5284709,
+    "lng": -0.1326286,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-6488376485",
+    "lat": 51.5426781,
+    "lng": -0.1489344,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6515180156",
+    "lat": 51.497824,
+    "lng": -0.2103225,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-6516189584",
+    "lat": 51.4627125,
+    "lng": -0.1117103,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6516857902",
+    "lat": 51.4636211,
+    "lng": -0.1122145,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6518234248",
+    "lat": 51.4950024,
+    "lng": -0.0545799,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6533516565",
+    "lat": 51.5427046,
+    "lng": -0.1724515,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6560160725",
+    "lat": 51.4881478,
+    "lng": -0.2114458,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6560160741",
+    "lat": 51.4879324,
+    "lng": -0.212583,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6561669264",
+    "lat": 51.531768,
+    "lng": -0.1262953,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-6598856043",
+    "lat": 51.5054891,
+    "lng": -0.0894683,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6684935288",
+    "lat": 51.5046924,
+    "lng": -0.1750974,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6744402820",
+    "lat": 51.5048526,
+    "lng": -0.2184577,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6749369683",
+    "lat": 51.4797592,
+    "lng": -0.151133,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6795663398",
+    "lat": 51.5011353,
+    "lng": -0.1380452,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-6842041287",
+    "lat": 51.4862235,
+    "lng": -0.1234404,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-6946467435",
+    "lat": 51.4924583,
+    "lng": -0.1483346,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-7249858507",
+    "lat": 51.4954923,
+    "lng": -0.1395094,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-7699204186",
+    "lat": 51.5138845,
+    "lng": -0.1524696,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-7787693082",
+    "lat": 51.5366061,
+    "lng": -0.126547,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-7891050276",
+    "lat": 51.5093298,
+    "lng": -0.1592778,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-7891050281",
+    "lat": 51.50929,
+    "lng": -0.1592603,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-7917893442",
+    "lat": 51.4901992,
+    "lng": -0.1689543,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-7917893447",
+    "lat": 51.4901607,
+    "lng": -0.1689452,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-7954738233",
+    "lat": 51.4940312,
+    "lng": -0.0543005,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-7960226793",
+    "lat": 51.4969292,
+    "lng": -0.1698252,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-8096501511",
+    "lat": 51.5308375,
+    "lng": -0.1904382,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-8410156299",
+    "lat": 51.5538976,
+    "lng": -0.0617323,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "only",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-8498192317",
+    "lat": 51.5364459,
+    "lng": -0.1237657,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-8684626523",
+    "lat": 51.4889,
+    "lng": -0.1356559,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-9121252098",
+    "lat": 51.4947635,
+    "lng": -0.1322273,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-9136004117",
+    "lat": 51.5324697,
+    "lng": -0.1239039,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-9592404702",
+    "lat": 51.5484934,
+    "lng": -0.0744501,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-9612482197",
+    "lat": 51.534425,
+    "lng": -0.1060619,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-9861804861",
+    "lat": 51.5163326,
+    "lng": -0.1773939,
+    "name": "Platform 1 Ladies Toilets",
+    "fee": "no",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-9876516418",
+    "lat": 51.5513732,
+    "lng": -0.085582,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-9892153077",
+    "lat": 51.5023601,
+    "lng": -0.2060034,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10013334507",
+    "lat": 51.4824917,
+    "lng": -0.1469583,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10036256615",
+    "lat": 51.5143027,
+    "lng": -0.1525197,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10036261758",
+    "lat": 51.5143129,
+    "lng": -0.1534125,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10050471803",
+    "lat": 51.4997574,
+    "lng": -0.2000171,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-10050478330",
+    "lat": 51.5158631,
+    "lng": -0.127125,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10120810835",
+    "lat": 51.4686883,
+    "lng": -0.1950412,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-10148000879",
+    "lat": 51.5105723,
+    "lng": -0.1305466,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10157069710",
+    "lat": 51.5437638,
+    "lng": -0.1529357,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10169136063",
+    "lat": 51.5480077,
+    "lng": -0.1816282,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10169136064",
+    "lat": 51.5479981,
+    "lng": -0.1815664,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10208090099",
+    "lat": 51.5422813,
+    "lng": -0.1484775,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10284526318",
+    "lat": 51.5015877,
+    "lng": -0.1942389,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "permissive",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10568610277",
+    "lat": 51.5481478,
+    "lng": -0.1922183,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10699089647",
+    "lat": 51.5087773,
+    "lng": -0.1287001,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "designated",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10699089659",
+    "lat": 51.5310507,
+    "lng": -0.1505216,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "designated",
+    "access": "permissive",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10753735271",
+    "lat": 51.4682278,
+    "lng": -0.0938714,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10753735272",
+    "lat": 51.4681873,
+    "lng": -0.0940353,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10795396728",
+    "lat": 51.4822429,
+    "lng": -0.143773,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-10798970431",
+    "lat": 51.5199306,
+    "lng": -0.0933234,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "designated",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10816551519",
+    "lat": 51.5359087,
+    "lng": -0.1577081,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10981567788",
+    "lat": 51.4950787,
+    "lng": -0.1198641,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-10994805431",
+    "lat": 51.5349774,
+    "lng": -0.1486158,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11008684675",
+    "lat": 51.535333,
+    "lng": -0.1262858,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11030241005",
+    "lat": 51.5222213,
+    "lng": -0.1257858,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11035652705",
+    "lat": 51.542025,
+    "lng": -0.146958,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11074686329",
+    "lat": 51.5165083,
+    "lng": -0.1776734,
+    "name": "Platform 1 Gents Toilets",
+    "fee": "no",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-11083960514",
+    "lat": 51.5025132,
+    "lng": -0.1736491,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11143987815",
+    "lat": 51.4898743,
+    "lng": -0.0889423,
+    "name": "Dawes Street",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11146069081",
+    "lat": 51.5243642,
+    "lng": -0.1189239,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11162933890",
+    "lat": 51.4985796,
+    "lng": -0.098715,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11163031241",
+    "lat": 51.4936008,
+    "lng": -0.0980808,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11200482437",
+    "lat": 51.5026633,
+    "lng": -0.1191459,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11264813369",
+    "lat": 51.5028217,
+    "lng": -0.1193641,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11343081254",
+    "lat": 51.4910161,
+    "lng": -0.1276252,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11348824549",
+    "lat": 51.5139625,
+    "lng": -0.1263016,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "permissive",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11387550349",
+    "lat": 51.533899,
+    "lng": -0.1534631,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11387574481",
+    "lat": 51.5361429,
+    "lng": -0.1533825,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-11388500928",
+    "lat": 51.533901,
+    "lng": -0.1516408,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11388531770",
+    "lat": 51.5352648,
+    "lng": -0.1560915,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11391697958",
+    "lat": 51.5436812,
+    "lng": -0.0571583,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11482488670",
+    "lat": 51.5254068,
+    "lng": -0.2095249,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11763635968",
+    "lat": 51.4968061,
+    "lng": -0.1758517,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-11832782811",
+    "lat": 51.4822693,
+    "lng": -0.1465473,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11866295817",
+    "lat": 51.5110712,
+    "lng": -0.0905702,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-11867212665",
+    "lat": 51.4814386,
+    "lng": -0.1454651,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-11942067115",
+    "lat": 51.5072763,
+    "lng": -0.0759426,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-11942067283",
+    "lat": 51.5074166,
+    "lng": -0.0752773,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12033233365",
+    "lat": 51.5031937,
+    "lng": -0.1141246,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12043262869",
+    "lat": 51.5081428,
+    "lng": -0.1381908,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12048865599",
+    "lat": 51.540038,
+    "lng": -0.1429031,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12052450687",
+    "lat": 51.4633987,
+    "lng": -0.1701664,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12103116883",
+    "lat": 51.4977096,
+    "lng": -0.141299,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12116796392",
+    "lat": 51.4962305,
+    "lng": -0.1775841,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12135958695",
+    "lat": 51.4836466,
+    "lng": -0.0843186,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12183994717",
+    "lat": 51.5011808,
+    "lng": -0.1188217,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12185383193",
+    "lat": 51.5204263,
+    "lng": -0.0724465,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12197556262",
+    "lat": 51.5297846,
+    "lng": -0.1279377,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12207193490",
+    "lat": 51.5197783,
+    "lng": -0.1047522,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12222287877",
+    "lat": 51.511708,
+    "lng": -0.0789691,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12250550961",
+    "lat": 51.4814342,
+    "lng": -0.1570117,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12279370541",
+    "lat": 51.5066023,
+    "lng": -0.1428988,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12279370580",
+    "lat": 51.5066287,
+    "lng": -0.1428386,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12307747122",
+    "lat": 51.5092463,
+    "lng": -0.135462,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12309412523",
+    "lat": 51.5399745,
+    "lng": -0.1437695,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12309412524",
+    "lat": 51.5088394,
+    "lng": -0.1265705,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12310155959",
+    "lat": 51.5135181,
+    "lng": -0.1402597,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12324121917",
+    "lat": 51.4661513,
+    "lng": -0.0955317,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12336682129",
+    "lat": 51.5469692,
+    "lng": -0.0532672,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12350657827",
+    "lat": 51.5205737,
+    "lng": -0.0722012,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12486844164",
+    "lat": 51.541176,
+    "lng": -0.1351658,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12492681001",
+    "lat": 51.5193607,
+    "lng": -0.1267647,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12552151418",
+    "lat": 51.5208242,
+    "lng": -0.0727651,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "designated",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12662996350",
+    "lat": 51.5114577,
+    "lng": -0.1029795,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "designated",
+    "access": "yes",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12712824643",
+    "lat": 51.5067348,
+    "lng": -0.072744,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "permit",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12712824644",
+    "lat": 51.5068413,
+    "lng": -0.0727687,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "no",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12714591431",
+    "lat": 51.5045257,
+    "lng": -0.0854704,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12722637460",
+    "lat": 51.4970633,
+    "lng": -0.1158555,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12817708461",
+    "lat": 51.5155534,
+    "lng": -0.141414,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "permissive",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-12855147394",
+    "lat": 51.5087141,
+    "lng": -0.12924,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12878632141",
+    "lat": 51.5034309,
+    "lng": -0.2192869,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12898801093",
+    "lat": 51.549796,
+    "lng": -0.1377431,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12949375846",
+    "lat": 51.5261685,
+    "lng": -0.0771844,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-12952052305",
+    "lat": 51.5160108,
+    "lng": -0.1885262,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-12957095244",
+    "lat": 51.5223878,
+    "lng": -0.1562685,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "no"
+  },
+  {
+    "id": "osm-12957095248",
+    "lat": 51.5225414,
+    "lng": -0.1567359,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "permissive",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13021039933",
+    "lat": 51.5289169,
+    "lng": -0.0756405,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13119098701",
+    "lat": 51.5355432,
+    "lng": -0.127704,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13173936182",
+    "lat": 51.4964392,
+    "lng": -0.1762749,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13193502701",
+    "lat": 51.524317,
+    "lng": -0.1329724,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13234280949",
+    "lat": 51.5562375,
+    "lng": -0.196634,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13376685632",
+    "lat": 51.505498,
+    "lng": -0.0839925,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "no",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13376685634",
+    "lat": 51.5049949,
+    "lng": -0.0849241,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13418551776",
+    "lat": 51.5199189,
+    "lng": -0.0579478,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13418551777",
+    "lat": 51.5187035,
+    "lng": -0.0602612,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13521478512",
+    "lat": 51.5155532,
+    "lng": -0.1381548,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13546608822",
+    "lat": 51.5120348,
+    "lng": -0.1223578,
+    "name": "Public toilet",
+    "fee": "yes",
+    "accessible": "limited",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13546608834",
+    "lat": 51.5117275,
+    "lng": -0.1214272,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "unknown",
+    "access": "customers",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-13901665062",
+    "lat": 51.5118123,
+    "lng": -0.1006275,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13909787668",
+    "lat": 51.5051987,
+    "lng": -0.0903703,
+    "name": "Borough Market Toilets",
+    "fee": "unknown",
+    "accessible": "unknown",
+    "access": "unknown",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-13997688270",
+    "lat": 51.5164319,
+    "lng": -0.1493332,
+    "name": "Public toilet",
+    "fee": "unknown",
+    "accessible": "yes",
+    "access": "customers",
+    "babyChange": "yes"
+  },
+  {
+    "id": "osm-13998107160",
+    "lat": 51.5130576,
+    "lng": -0.1399232,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "yes",
+    "access": "yes",
+    "babyChange": "unknown"
+  },
+  {
+    "id": "osm-14022901315",
+    "lat": 51.5234695,
+    "lng": -0.0768838,
+    "name": "Public toilet",
+    "fee": "no",
+    "accessible": "no",
+    "access": "unknown",
+    "babyChange": "unknown"
+  }
+]
